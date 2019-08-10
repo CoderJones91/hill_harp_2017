@@ -1,0 +1,24 @@
+{
+  "name": "hill_harp_2017",
+  "version": "1.0.0",
+  "description": "Hill Harper Tribute page (fCC RWD Project)",
+  "main": "index.js",
+  "homepage": "https://CoderJones91.github.io/hill_harp_2017",
+  "scripts": {   
+        "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderJones91/hill_harp_2017.git"
+  },
+  "author": "ACJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoderJones91/hill_harp_2017/issues"
+  }
+  
+}

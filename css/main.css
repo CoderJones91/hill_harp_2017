@@ -1,71 +1,69 @@
 /*---Google Font Imports ---*/
-@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
 
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url("https://fonts.googleapis.com/css?family=Satisfy");
 
-@import url('https://fonts.googleapis.com/css?family=Metamorphous');
+@import url("https://fonts.googleapis.com/css?family=Metamorphous");
 
 body {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
   margin-top: 60px;
   text-align: center;
 }
-.center-block{
+.center-block {
   display: block;
   margin: 0 auto;
   border-radius: 10px;
   margin-top: 20px;
 }
-h1{
+h1 {
   font-family: Orbitron, sans-serif;
-  animation-delay: .8s;
+  animation-delay: 0.8s;
 }
-h3{
+h3 {
   margin-top: 25px;
-  font-family: 'Satisfy';
+  font-family: "Satisfy";
 }
-section{
-  background-color:#000;
+section {
+  background-color: #000;
   margin-top: 35px;
   margin-bottom: 30px;
   padding-top: 5px;
   color: #fff;
   border-radius: 15px;
   background-size: 50%;
-  margin-left:20px;
-  margin-right:20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-h2{ 
-  font-family: 'Metamorphous', cursive;
+h2 {
+  font-family: "Metamorphous", cursive;
 }
-li{
+li {
   list-style: none;
-  font-family: 'Orbitron', sans-serif;
-  
+  font-family: "Orbitron", sans-serif;
 }
-b{
+b {
   font-size: 22px;
-  font-family: 'Satisfy';
-  
+  font-family: "Satisfy";
 }
-.fadeIn{
-  animation-delay:1.3s;
+.fadeIn {
+  animation-delay: 1.3s;
 }
-section{
+section {
   backgroud-color: white;
 }
-.info{
-  font-family: 'orbitron', sans-serif;
+.info {
+  font-family: "orbitron", sans-serif;
 }
-.footc{
+.footc {
   background-color: black;
   color: whitesmoke;
-  font-family: 'metamorphous', sans-serif;
+  font-family: "metamorphous", sans-serif;
 }
-i{
+i {
   color: red;
 }
-#main{
+#main {
   margin: 0 auto;
   padding: 0 auto;
   height: 800px;
@@ -74,13 +72,12 @@ i{
   overflow-x: hidden;
 }
 
-.footc{
+.footc {
   margin: 0 auto;
-  padding: 3px; 
- 
+  padding: 3px;
 }
 
-.cp{
+.cp {
   position: absolute;
   float: left;
   margin-left: 15px;
@@ -93,23 +90,24 @@ i{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #000; 
+  background: #000;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #000; 
+  background: #000;
 }
 
 @media screen and (max-width: 375px) {
   body {
     position: absolute;
+    width: 100vw;
   }
 }
